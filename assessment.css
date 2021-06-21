@@ -1,0 +1,147 @@
+
+
+/* Your headers should be changed to your favorite color and set to a sans-serif font. (Notice they are not all the same tag!) */
+h1, h2, h3, h4, h5, h6 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+/* Your table should have bold/colored table headers, as well as a table border. Content should be centered in their respective blocks. */
+
+thead {
+  font-weight: bold;
+  color: purple;
+}
+
+table {
+  border-color: black;
+  border-width: 3px;
+  border-style: dashed;
+  text-align: center;
+}
+
+/* Your list should have square list bullets. */
+
+#teamRoster li {
+  list-style-type: square;
+}
+
+/* When the user hovers over a hyperlink the background color of the hyperlink should change and it should not be underlined. */
+
+a:hover {
+  background-color: yellow;
+  text-decoration-color: transparent;
+}
+
+/* Set the background color of the block quote text (second paragraph) to a dark color and the font color to a contrasting light color. */
+
+body blockquote {
+  background-color: blue;
+  color: orange;
+}
+
+/* Make each team's image the background image for the list. Hint Check out the element > element and :first-child / :last-child selectors. Remove the image from above the team's list. */
+#teamRoster img {
+  display: none;
+}
+
+#teamRoster > li:first-child {
+  position: relative;
+      background: white;
+      overflow: hidden;
+}
+
+#teamRoster > li:first-child:before {
+  content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.25;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#teamRoster > li:last-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* The checkbox list should not be bulleted. */
+
+#checkbox-grid {
+  list-style-type: none;
+}
+
+/* Have each team's primary quarterback display in bold. */
+
+#teamRoster ul ol li:first-of-type {
+  font-weight: bold;
+}
+
+/* Use CSS to give the table rows alternating background colors. */
+
+thead tr:nth-child(1) {
+  background-color: lightgreen;
+}
+thead tr:nth-child(2) {
+  background-color: lightblue;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tfoot tr:nth-child(1) {
+  background-color: darkgrey;
+}
+
+/* Solid background images can make foreground text hard to read; find a way to have each team's image display behind its roster, but reduced intensity. Do not edit the image itself. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
